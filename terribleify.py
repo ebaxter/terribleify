@@ -87,5 +87,7 @@ def terribleify(input_fig, verbose = False):
                         Line2D([0], [0], color='black', lw=4),Line2D([0], [0], color='brown', lw=4),
                         Line2D([0], [0], color='orange', lw=4),Line2D([0], [0], color='brown', lw=4)]
                 axi.legend(lines, ['d','a','t','a'])
-    
+
+    new_fig.set_facecolor('white')    
     return new_fig
+
